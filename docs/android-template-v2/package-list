@@ -1,0 +1,124 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:com.delighted.cache.model////PointingToDeclaration/android-template-v2/com.delighted.cache.model/index.md
+$dokka.location:com.delighted.cache.model/ToBeDeleted///PointingToDeclaration/android-template-v2/com.delighted.cache.model/-to-be-deleted/index.md
+$dokka.location:com.delighted.cache.model/ToBeDeleted/ToBeDeleted/#kotlin.Long/PointingToDeclaration/android-template-v2/com.delighted.cache.model/-to-be-deleted/-to-be-deleted.md
+$dokka.location:com.delighted.cache.model/ToBeDeleted/id/#/PointingToDeclaration/android-template-v2/com.delighted.cache.model/-to-be-deleted/id.md
+$dokka.location:com.delighted.cache////PointingToDeclaration/android-template-v2/com.delighted.cache/index.md
+$dokka.location:com.delighted.cache/AppDatabase///PointingToDeclaration/android-template-v2/com.delighted.cache/-app-database/index.md
+$dokka.location:com.delighted.cache/AppDatabase/AppDatabase/#/PointingToDeclaration/android-template-v2/com.delighted.cache/-app-database/-app-database.md
+$dokka.location:com.delighted.cache/DatabaseModule///PointingToDeclaration/android-template-v2/com.delighted.cache/-database-module/index.md
+$dokka.location:com.delighted.cache/DatabaseModule/providesDatabase/#android.content.Context/PointingToDeclaration/android-template-v2/com.delighted.cache/-database-module/provides-database.md
+$dokka.location:com.delighted.core////PointingToDeclaration/android-template-v2/com.delighted.core/index.md
+$dokka.location:com.delighted.core//autoCleared/androidx.fragment.app.Fragment#/PointingToDeclaration/android-template-v2/com.delighted.core/auto-cleared.md
+$dokka.location:com.delighted.core//launchWhenViewCreated/androidx.fragment.app.Fragment#kotlin.coroutines.SuspendFunction1[kotlinx.coroutines.CoroutineScope,kotlin.Unit]/PointingToDeclaration/android-template-v2/com.delighted.core/launch-when-view-created.md
+$dokka.location:com.delighted.core//setPrecomputedText/android.widget.TextView#kotlin.CharSequence/PointingToDeclaration/android-template-v2/com.delighted.core/set-precomputed-text.md
+$dokka.location:com.delighted.core//viewBinding/android.app.Activity#kotlin.Function1[android.view.LayoutInflater,TypeParam(bounds=[androidx.viewbinding.ViewBinding])]/PointingToDeclaration/android-template-v2/com.delighted.core/view-binding.md
+$dokka.location:com.delighted.core//viewBinding/androidx.fragment.app.Fragment#kotlin.Function1[android.view.View,TypeParam(bounds=[androidx.viewbinding.ViewBinding])]/PointingToDeclaration/android-template-v2/com.delighted.core/view-binding.md
+$dokka.location:com.delighted.core/AutoClearedValue///PointingToDeclaration/android-template-v2/com.delighted.core/-auto-cleared-value/index.md
+$dokka.location:com.delighted.core/AutoClearedValue/AutoClearedValue/#androidx.fragment.app.Fragment/PointingToDeclaration/android-template-v2/com.delighted.core/-auto-cleared-value/-auto-cleared-value.md
+$dokka.location:com.delighted.core/AutoClearedValue/getValue/#androidx.fragment.app.Fragment#kotlin.reflect.KProperty[*]/PointingToDeclaration/android-template-v2/com.delighted.core/-auto-cleared-value/get-value.md
+$dokka.location:com.delighted.core/AutoClearedValue/setValue/#androidx.fragment.app.Fragment#kotlin.reflect.KProperty[*]#TypeParam(bounds=[kotlin.Any])/PointingToDeclaration/android-template-v2/com.delighted.core/-auto-cleared-value/set-value.md
+$dokka.location:com.delighted.core/FragmentViewBindingDelegate///PointingToDeclaration/android-template-v2/com.delighted.core/-fragment-view-binding-delegate/index.md
+$dokka.location:com.delighted.core/FragmentViewBindingDelegate/FragmentViewBindingDelegate/#androidx.fragment.app.Fragment#kotlin.Function1[android.view.View,TypeParam(bounds=[androidx.viewbinding.ViewBinding])]/PointingToDeclaration/android-template-v2/com.delighted.core/-fragment-view-binding-delegate/-fragment-view-binding-delegate.md
+$dokka.location:com.delighted.core/FragmentViewBindingDelegate/getValue/#androidx.fragment.app.Fragment#kotlin.reflect.KProperty[*]/PointingToDeclaration/android-template-v2/com.delighted.core/-fragment-view-binding-delegate/get-value.md
+$dokka.location:com.delighted.data.dispatchers////PointingToDeclaration/android-template-v2/com.delighted.data.dispatchers/index.md
+$dokka.location:com.delighted.data.dispatchers/AppDispatchers///PointingToDeclaration/android-template-v2/com.delighted.data.dispatchers/-app-dispatchers/index.md
+$dokka.location:com.delighted.data.dispatchers/AppDispatchers/computation/#/PointingToDeclaration/android-template-v2/com.delighted.data.dispatchers/-app-dispatchers/computation.md
+$dokka.location:com.delighted.data.dispatchers/AppDispatchers/io/#/PointingToDeclaration/android-template-v2/com.delighted.data.dispatchers/-app-dispatchers/io.md
+$dokka.location:com.delighted.data.dispatchers/AppDispatchers/mainThread/#/PointingToDeclaration/android-template-v2/com.delighted.data.dispatchers/-app-dispatchers/main-thread.md
+$dokka.location:com.delighted.data.interactor////PointingToDeclaration/android-template-v2/com.delighted.data.interactor/index.md
+$dokka.location:com.delighted.data.interactor//invoke/com.delighted.data.interactor.SuspendableUseCase[TypeParam(bounds=[kotlin.Any?]),TypeParam(bounds=[kotlin.Any?])]#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/android-template-v2/com.delighted.data.interactor/invoke.md
+$dokka.location:com.delighted.data.interactor//invoke/com.delighted.data.interactor.SuspendableUseCase[kotlin.Unit,TypeParam(bounds=[kotlin.Any?])]#/PointingToDeclaration/android-template-v2/com.delighted.data.interactor/invoke.md
+$dokka.location:com.delighted.data.interactor//invoke/com.delighted.data.interactor.UseCase[TypeParam(bounds=[kotlin.Any?]),TypeParam(bounds=[kotlin.Any?])]#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/android-template-v2/com.delighted.data.interactor/invoke.md
+$dokka.location:com.delighted.data.interactor//invoke/com.delighted.data.interactor.UseCase[kotlin.Unit,TypeParam(bounds=[kotlin.Any?])]#/PointingToDeclaration/android-template-v2/com.delighted.data.interactor/invoke.md
+$dokka.location:com.delighted.data.interactor/FlowUseCase///PointingToDeclaration/android-template-v2/com.delighted.data.interactor/-flow-use-case/index.md
+$dokka.location:com.delighted.data.interactor/SuspendableUseCase///PointingToDeclaration/android-template-v2/com.delighted.data.interactor/-suspendable-use-case/index.md
+$dokka.location:com.delighted.data.interactor/SuspendableUseCase/execute/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/android-template-v2/com.delighted.data.interactor/-suspendable-use-case/execute.md
+$dokka.location:com.delighted.data.interactor/UseCase///PointingToDeclaration/android-template-v2/com.delighted.data.interactor/-use-case/index.md
+$dokka.location:com.delighted.data.interactor/UseCase/execute/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/android-template-v2/com.delighted.data.interactor/-use-case/execute.md
+$dokka.location:com.delighted.data.utils////PointingToDeclaration/android-template-v2/com.delighted.data.utils/index.md
+$dokka.location:com.delighted.data.utils//checkBackgroundThread/#/PointingToDeclaration/android-template-v2/com.delighted.data.utils/check-background-thread.md
+$dokka.location:com.delighted.data.utils//checkMainThread/#/PointingToDeclaration/android-template-v2/com.delighted.data.utils/check-main-thread.md
+$dokka.location:com.delighted.data.utils//networkBoundResource/#kotlin.Function0[kotlinx.coroutines.flow.Flow[TypeParam(bounds=[kotlin.Any?])]]#kotlin.coroutines.SuspendFunction0[TypeParam(bounds=[kotlin.Any?])]#kotlin.coroutines.SuspendFunction1[TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]#kotlin.Function1[TypeParam(bounds=[kotlin.Any?])?,kotlin.Boolean]/PointingToDeclaration/android-template-v2/com.delighted.data.utils/network-bound-resource.md
+$dokka.location:com.delighted.data.utils/Resource.Failure///PointingToDeclaration/android-template-v2/com.delighted.data.utils/-resource/-failure/index.md
+$dokka.location:com.delighted.data.utils/Resource.Failure/Failure/#kotlin.Throwable/PointingToDeclaration/android-template-v2/com.delighted.data.utils/-resource/-failure/-failure.md
+$dokka.location:com.delighted.data.utils/Resource.Failure/error/#/PointingToDeclaration/android-template-v2/com.delighted.data.utils/-resource/-failure/error.md
+$dokka.location:com.delighted.data.utils/Resource.Loading///PointingToDeclaration/android-template-v2/com.delighted.data.utils/-resource/-loading/index.md
+$dokka.location:com.delighted.data.utils/Resource.Success///PointingToDeclaration/android-template-v2/com.delighted.data.utils/-resource/-success/index.md
+$dokka.location:com.delighted.data.utils/Resource.Success/Success/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/android-template-v2/com.delighted.data.utils/-resource/-success/-success.md
+$dokka.location:com.delighted.data.utils/Resource.Success/data/#/PointingToDeclaration/android-template-v2/com.delighted.data.utils/-resource/-success/data.md
+$dokka.location:com.delighted.data.utils/Resource///PointingToDeclaration/android-template-v2/com.delighted.data.utils/-resource/index.md
+$dokka.location:com.delighted.data////PointingToDeclaration/android-template-v2/com.delighted.data/index.md
+$dokka.location:com.delighted.data/AppDispatchersImpl///PointingToDeclaration/android-template-v2/com.delighted.data/-app-dispatchers-impl/index.md
+$dokka.location:com.delighted.data/AppDispatchersImpl/AppDispatchersImpl/#/PointingToDeclaration/android-template-v2/com.delighted.data/-app-dispatchers-impl/-app-dispatchers-impl.md
+$dokka.location:com.delighted.data/AppDispatchersImpl/computation/#/PointingToDeclaration/android-template-v2/com.delighted.data/-app-dispatchers-impl/computation.md
+$dokka.location:com.delighted.data/AppDispatchersImpl/io/#/PointingToDeclaration/android-template-v2/com.delighted.data/-app-dispatchers-impl/io.md
+$dokka.location:com.delighted.data/AppDispatchersImpl/mainThread/#/PointingToDeclaration/android-template-v2/com.delighted.data/-app-dispatchers-impl/main-thread.md
+$dokka.location:com.delighted.data/DataModule.Companion///PointingToDeclaration/android-template-v2/com.delighted.data/-data-module/-companion/index.md
+$dokka.location:com.delighted.data/DataModule.Companion/providesSharedPreferences/#android.content.Context/PointingToDeclaration/android-template-v2/com.delighted.data/-data-module/-companion/provides-shared-preferences.md
+$dokka.location:com.delighted.data/DataModule///PointingToDeclaration/android-template-v2/com.delighted.data/-data-module/index.md
+$dokka.location:com.delighted.data/DataModule/DataModule/#/PointingToDeclaration/android-template-v2/com.delighted.data/-data-module/-data-module.md
+$dokka.location:com.delighted.data/DataModule/bindDispatchers/#com.delighted.data.AppDispatchersImpl/PointingToDeclaration/android-template-v2/com.delighted.data/-data-module/bind-dispatchers.md
+$dokka.location:com.delighted.home////PointingToDeclaration/android-template-v2/com.delighted.home/index.md
+$dokka.location:com.delighted.home/HomeFragment///PointingToDeclaration/android-template-v2/com.delighted.home/-home-fragment/index.md
+$dokka.location:com.delighted.home/HomeFragment/HomeFragment/#/PointingToDeclaration/android-template-v2/com.delighted.home/-home-fragment/-home-fragment.md
+$dokka.location:com.delighted.login////PointingToDeclaration/android-template-v2/com.delighted.login/index.md
+$dokka.location:com.delighted.login/LoginFragment///PointingToDeclaration/android-template-v2/com.delighted.login/-login-fragment/index.md
+$dokka.location:com.delighted.login/LoginFragment/LoginFragment/#/PointingToDeclaration/android-template-v2/com.delighted.login/-login-fragment/-login-fragment.md
+$dokka.location:com.delighted.remote////PointingToDeclaration/android-template-v2/com.delighted.remote/index.md
+$dokka.location:com.delighted.remote/NetworkModule///PointingToDeclaration/android-template-v2/com.delighted.remote/-network-module/index.md
+$dokka.location:com.delighted.remote/NetworkModule/providesBaseUrl/#/PointingToDeclaration/android-template-v2/com.delighted.remote/-network-module/provides-base-url.md
+$dokka.location:com.delighted.remote/NetworkModule/providesOkHttpClient/#okhttp3.logging.HttpLoggingInterceptor.Level/PointingToDeclaration/android-template-v2/com.delighted.remote/-network-module/provides-ok-http-client.md
+$dokka.location:com.delighted.remote/NetworkModule/providesRetrofit/#okhttp3.HttpUrl?#dagger.Lazy[okhttp3.OkHttpClient]/PointingToDeclaration/android-template-v2/com.delighted.remote/-network-module/provides-retrofit.md
+$dokka.location:com.delighted.util////PointingToDeclaration/android-template-v2/com.delighted.util/index.md
+$dokka.location:com.delighted.util//exhaustive/TypeParam(bounds=[kotlin.Any?])#/PointingToDeclaration/android-template-v2/com.delighted.util/exhaustive.md
+$dokka.location:com.delighted////PointingToDeclaration/android-template-v2/com.delighted/index.md
+$dokka.location:com.delighted//abbreviated/com.delighted.GitHash#/PointingToDeclaration/android-template-v2/com.delighted/abbreviated.md
+$dokka.location:com.delighted/AppConfig///PointingToDeclaration/android-template-v2/com.delighted/-app-config/index.md
+$dokka.location:com.delighted/AppConfig/applicationId/#/PointingToDeclaration/android-template-v2/com.delighted/-app-config/application-id.md
+$dokka.location:com.delighted/AppConfig/buildType/#/PointingToDeclaration/android-template-v2/com.delighted/-app-config/build-type.md
+$dokka.location:com.delighted/AppConfig/gitSha/#/PointingToDeclaration/android-template-v2/com.delighted/-app-config/git-sha.md
+$dokka.location:com.delighted/AppConfig/gitTimestamp/#/PointingToDeclaration/android-template-v2/com.delighted/-app-config/git-timestamp.md
+$dokka.location:com.delighted/AppConfig/isDebug/#/PointingToDeclaration/android-template-v2/com.delighted/-app-config/is-debug.md
+$dokka.location:com.delighted/AppConfig/sdkInt/#/PointingToDeclaration/android-template-v2/com.delighted/-app-config/sdk-int.md
+$dokka.location:com.delighted/AppConfig/versionCode/#/PointingToDeclaration/android-template-v2/com.delighted/-app-config/version-code.md
+$dokka.location:com.delighted/AppConfig/versionName/#/PointingToDeclaration/android-template-v2/com.delighted/-app-config/version-name.md
+$dokka.location:com.delighted/AppModule///PointingToDeclaration/android-template-v2/com.delighted/-app-module/index.md
+$dokka.location:com.delighted/AppModule/AppModule/#/PointingToDeclaration/android-template-v2/com.delighted/-app-module/-app-module.md
+$dokka.location:com.delighted/AppModule/bindsAppConfig/#com.delighted.delightedsdkAppConfig/PointingToDeclaration/android-template-v2/com.delighted/-app-module/binds-app-config.md
+$dokka.location:com.delighted/GitHash///PointingToDeclaration/android-template-v2/com.delighted/-git-hash/index.md
+$dokka.location:com.delighted/GitHash/GitHash/#kotlin.String/PointingToDeclaration/android-template-v2/com.delighted/-git-hash/-git-hash.md
+$dokka.location:com.delighted/GitHash/hash/#/PointingToDeclaration/android-template-v2/com.delighted/-git-hash/hash.md
+$dokka.location:com.delighted/MainActivity///PointingToDeclaration/android-template-v2/com.delighted/-main-activity/index.md
+$dokka.location:com.delighted/MainActivity/MainActivity/#/PointingToDeclaration/android-template-v2/com.delighted/-main-activity/-main-activity.md
+$dokka.location:com.delighted/delightedsdkApp///PointingToDeclaration/android-template-v2/com.delighted/-template-app/index.md
+$dokka.location:com.delighted/delightedsdkApp/delightedsdkApp/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app/-template-app.md
+$dokka.location:com.delighted/delightedsdkApp/config/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app/config.md
+$dokka.location:com.delighted/delightedsdkApp/onCreate/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app/on-create.md
+$dokka.location:com.delighted/delightedsdkApp/threadPolicy/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app/thread-policy.md
+$dokka.location:com.delighted/delightedsdkApp/tree/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app/tree.md
+$dokka.location:com.delighted/delightedsdkApp/vmPolicy/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app/vm-policy.md
+$dokka.location:com.delighted/delightedsdkAppConfig///PointingToDeclaration/android-template-v2/com.delighted/-template-app-config/index.md
+$dokka.location:com.delighted/delightedsdkAppConfig/delightedsdkAppConfig/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app-config/-template-app-config.md
+$dokka.location:com.delighted/delightedsdkAppConfig/applicationId/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app-config/application-id.md
+$dokka.location:com.delighted/delightedsdkAppConfig/buildType/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app-config/build-type.md
+$dokka.location:com.delighted/delightedsdkAppConfig/gitSha/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app-config/git-sha.md
+$dokka.location:com.delighted/delightedsdkAppConfig/gitTimestamp/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app-config/git-timestamp.md
+$dokka.location:com.delighted/delightedsdkAppConfig/isDebug/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app-config/is-debug.md
+$dokka.location:com.delighted/delightedsdkAppConfig/sdkInt/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app-config/sdk-int.md
+$dokka.location:com.delighted/delightedsdkAppConfig/versionCode/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app-config/version-code.md
+$dokka.location:com.delighted/delightedsdkAppConfig/versionName/#/PointingToDeclaration/android-template-v2/com.delighted/-template-app-config/version-name.md
+com.delighted
+com.delighted.cache
+com.delighted.cache.model
+com.delighted.core
+com.delighted.data
+com.delighted.data.dispatchers
+com.delighted.data.interactor
+com.delighted.data.utils
+com.delighted.home
+com.delighted.login
+com.delighted.remote
+com.delighted.util
+

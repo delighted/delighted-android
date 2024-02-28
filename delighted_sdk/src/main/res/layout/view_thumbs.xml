@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ToggleButton
+        android:id="@+id/thumbs_up"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/ic_thumbs_up"
+        android:textOff=""
+        android:textOn="" />
+
+    <ToggleButton
+        android:id="@+id/thumbs_down"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/ic_thumbs_down"
+        android:textOff=""
+        android:textOn="" />
+
+</LinearLayout>

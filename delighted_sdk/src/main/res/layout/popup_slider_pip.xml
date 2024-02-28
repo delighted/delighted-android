@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/pip_padding"
+    android:clipToPadding="false"
+    android:clipChildren="false">
+
+    <View android:id="@+id/thumb"
+        android:layout_width="@dimen/pip_size"
+        android:layout_height="@dimen/pip_size"
+        tools:background="@drawable/shape_circle"/>
+
+</FrameLayout>

@@ -1,0 +1,8 @@
+# Ignore inline messages which lay outside a diff's range of PR
+github.dismiss_out_of_range_messages
+
+# Android lint
+android_lint.gradle_task = "app:lintDevelopRelease"
+android_lint.report_file = "app/build/reports/lint/lint-result.xml"
+android_lint.filtering = true
+android_lint.lint(inline_mode: true)

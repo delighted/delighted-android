@@ -1,0 +1,3 @@
+result_files = Dir["#{Dir.home}/junit/**/*.xml"]
+junit.parse_files result_files
+junit.report

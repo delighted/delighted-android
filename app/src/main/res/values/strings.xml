@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Delighted Android SDK</string>
+    <string name="app_title">Sample DLT Survey App</string>
+    <string name="trigger_nps_button">NPS</string>
+    <string name="trigger_five_star_button">Five Star</string>
+    <string name="trigger_csat_button">CSAT</string>
+    <string name="trigger_csat_3_point_button">CSAT (3-point)</string>
+    <string name="trigger_ces_button">CES</string>
+    <string name="trigger_smileys_button">Smileys</string>
+    <string name="trigger_pmf_button">PMF</string>
+    <string name="trigger_thumbs_button">Thumbs</string>
+    <string name="trigger_enps_button">eNPS</string>
+</resources>

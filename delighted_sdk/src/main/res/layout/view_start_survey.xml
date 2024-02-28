@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <ImageButton
+        android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_circle"
+        android:contentDescription="@string/cd_close"
+        android:padding="10dp"
+        android:src="@drawable/ic_close"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/first_question_text"
+        style="@style/TextAppearance.Delighted.Body1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:lineSpacingExtra="5sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="How likely are you to recommend Eero to a friend?" />
+
+    <com.delighted.sdk.view.question.QuestionViewController
+        android:id="@+id/first_question_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/first_question_text"
+        app:layout_goneMarginTop="48dp"
+        tools:layout_height="54dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/two_labels"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="19dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/first_question_view"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/two_label_start"
+            style="@style/TextAppearance.Delighted.Basic.Label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:gravity="start"
+            app:layout_constraintEnd_toStartOf="@id/two_label_end"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Not likely" />
+
+        <TextView
+            android:id="@+id/two_label_end"
+            style="@style/TextAppearance.Delighted.Basic.Label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:gravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/two_label_start"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Very likely" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/three_labels"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/first_question_view"
+        tools:visibility="gone">
+
+        <View
+            android:id="@+id/empty1"
+            android:layout_width="48dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/empty2"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/empty2"
+            android:layout_width="48dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/empty3"
+            app:layout_constraintStart_toEndOf="@id/empty1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/empty3"
+            style="@style/TextAppearance.Delighted.Basic.Text"
+            android:layout_width="48dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/empty2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/three_label_start"
+            style="@style/TextAppearance.Delighted.Basic.Label"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="@id/empty1"
+            app:layout_constraintStart_toStartOf="@id/empty1"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Not disappointed" />
+
+        <TextView
+            android:id="@+id/three_label_middle"
+            style="@style/TextAppearance.Delighted.Basic.Label"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="@id/empty2"
+            app:layout_constraintStart_toStartOf="@id/empty2"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Mildly disappointing" />
+
+        <TextView
+            android:id="@+id/three_label_end"
+            style="@style/TextAppearance.Delighted.Basic.Label"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="@id/empty3"
+            app:layout_constraintStart_toStartOf="@id/empty3"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Very disappointed" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/please_tell_more_text"
+        style="@style/TextAppearance.Delighted.Body1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:lineSpacingExtra="5sp"
+        android:textSize="15sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/first_question_view"
+        tools:text="Please tell us a little bit about why you chose this score"
+        tools:visibility="visible" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/answer_input"
+        style="@style/TextAppearance.Delighted.BodyLarge"
+        android:layout_width="0dp"
+        android:layout_height="152dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:padding="4dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/please_tell_more_text"
+        tools:text="I liked this product"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/answer_input_border"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/edit_text_border"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/answer_input"
+        app:layout_constraintEnd_toEndOf="@id/answer_input"
+        app:layout_constraintStart_toStartOf="@id/answer_input"
+        app:layout_constraintTop_toTopOf="@id/answer_input"
+        tools:visibility="visible" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/action_button"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/answer_input"
+        tools:text="Next"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/powered_by_text"
+        style="@style/TextAppearance.Delighted.PoweredBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/action_button"
+        tools:text="Powered by Delighted"
+        tools:visibility="visible" />
+
+</merge>

@@ -1,0 +1,6 @@
+//[delighted-android](../../../index.md)/[com.delighted.sdk](../index.md)/[SdkInitParams](index.md)/[SdkInitParams](-sdk-init-params.md)
+
+# SdkInitParams
+
+[androidJvm]\
+fun [SdkInitParams](-sdk-init-params.md)(delightedId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), person: [Person](../../com.delighted.sdk.domain.request/-person/index.md)? = null, properties: [Map](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)&gt;? = null, token: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null, createdAt: [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)? = null, initialDelay: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)? = null, recurringPeriod: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)? = null, themeOverride: [SurveyTheme](../../com.delighted.sdk.domain/-survey-theme/index.md)? = null, testMode: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) = false, serverUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null)

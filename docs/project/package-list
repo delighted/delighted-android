@@ -1,0 +1,16 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+
+com.delighted
+com.delighted.cache.room
+com.delighted.cache.room.model
+com.delighted.core
+com.delighted.data.injection
+com.delighted.data.utils
+com.delighted.domain.dispatchers
+com.delighted.domain.interactor
+com.delighted.home
+com.delighted.login
+com.delighted.remote
+com.delighted.util
+

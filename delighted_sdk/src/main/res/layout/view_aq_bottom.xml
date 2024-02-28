@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/secondary_button"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/shape_pill_outline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@drawable/shape_pill_outline"
+        tools:text="Previous"
+        tools:textColor="@color/almost_black" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/primary_button"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="32dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@drawable/shape_pill"
+        tools:text="Next" />
+
+    <TextView
+        android:id="@+id/powered_by_text"
+        style="@style/TextAppearance.Delighted.PoweredBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:paddingBottom="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/primary_button"
+        tools:text="Powered by Delighted"
+        tools:textColor="@color/colorSecondaryVariant" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

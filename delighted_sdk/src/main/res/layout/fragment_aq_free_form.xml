@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aq_free_form_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".view.fragment.ThankYouFragment">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/free_form_answer_input"
+        style="@style/TextAppearance.Delighted.BodyLarge"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:padding="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="I liked this product" />
+
+    <View
+        android:id="@+id/free_form_answer_input_border"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/edit_text_border"
+        app:layout_constraintBottom_toBottomOf="@id/free_form_answer_input"
+        app:layout_constraintEnd_toEndOf="@id/free_form_answer_input"
+        app:layout_constraintStart_toStartOf="@id/free_form_answer_input"
+        app:layout_constraintTop_toTopOf="@id/free_form_answer_input" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

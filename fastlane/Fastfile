@@ -1,0 +1,78 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  desc "Runs all the tests"
+  lane :test do
+    gradle(task: "test")
+  end
+
+  # Note: AppCenter release is only used for QA testing the SDK using sample app.
+  # You will need an AppCenter api token, and the project user name.
+  desc "Deploy a new production build to App Center for QA testing"
+  lane :deployAppCenterRelease do
+    gradle(task: "clean assembleProductionRelease")
+    appcenter_upload(
+      api_token: ENV["ORG_GRADLE_PROJECT_APPCENTER_TOKEN"],
+      owner_name: ENV["ORG_GRADLE_PROJECT_APPCENTER_OWNER_NAME"],
+      app_name: "DelightedSDK-QA",
+      file: ENV["GRADLE_APK_OUTPUT_PATH"]
+    )
+  end
+
+  # Note: You will need to create a Github classic token and add it to a .env.default
+  #  file in the root of this project as GITHUB_API_TOKEN="ABCDEFGHI"
+  desc "Creates a new GitHub release from main branch"
+  lane :createGitHubRelease do
+    gradle(task: "clean delighted_sdk:assembleRelease")
+    ensure_git_branch(branch: "main")
+    ensure_git_status_clean
+
+    version = prompt(text: "Version (see: Config.name): ")
+
+    changelog = prompt(
+      text: "Changelog: ",
+      multi_line_end_keyword: "END"
+    )
+
+    github_release = set_github_release(
+      repository_name: "delighted/delighted-android",
+      name: version,
+      tag_name: version,
+      description: changelog,
+      commitish: "main", # i.e. branch
+      upload_assets: [
+        # Would be great to get this from `SharedValues` but doesn't look available
+        "./delighted_sdk/build/outputs/aar/delighted_sdk-release.aar"
+      ]
+    )
+  end
+
+  # Note: You will need to generate credentials for s3Maven user and add the credentials to
+  # aws credentials file ~/.aws/credentials with the profile [s3Maven]
+  # e.g.
+  # [s3maven]
+  #  aws_access_key_id = ABCDEFGHIJ
+  #  aws_secret_access_key = abcdefghijkl
+  desc "Creates a new Maven release from main branch"
+  lane :createMavenRelease do
+      ensure_git_branch(branch: "main")
+      ensure_git_status_clean
+
+      gradle(task: "clean publish")
+    end
+end

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/StartModal">
+
+    <action
+        android:id="@+id/action_to_first_question"
+        app:destination="@id/StartModal" />
+
+    <action
+        android:id="@+id/action_to_thank_you"
+        app:destination="@id/ThankYouScreen"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/do_nothing" />
+
+    <fragment
+        android:id="@+id/StartModal"
+        android:name="com.delighted.sdk.view.fragment.StartModalFragment"
+        android:label="start survey"
+        tools:layout="@layout/fragment_start_modal">
+        <action
+            android:id="@+id/action_StartModal_to_AdditionalQuestionScreen"
+            app:destination="@id/AdditionalQuestionScreen"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/do_nothing" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ThankYouScreen"
+        android:name="com.delighted.sdk.view.fragment.ThankYouFragment"
+        android:label="thank you screen"
+        tools:layout="@layout/fragment_thank_you" />
+
+    <fragment
+        android:id="@+id/AdditionalQuestionScreen"
+        android:name="com.delighted.sdk.view.fragment.AdditionalQuestionFragment"
+        android:label="additional question screen"
+        tools:layout="@layout/fragment_aq_free_form" />
+
+</navigation>
