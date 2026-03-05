@@ -2,7 +2,7 @@ package plugins
 
 object Config {
     const val major = 1
-    const val minor = 0
+    const val minor = 1
     const val patch = 0
 
     const val minSdk = 24
